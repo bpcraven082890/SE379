@@ -1,14 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Todo from './Todo';
-import { Modal } from './Modal';
+import Form from './Form';
 
 function App() {
   return (
     <div class="todo-container">
-      <Todo />
+      <logo />
+      <Form />
     </div>
-    //Testing
   );
 }
 
