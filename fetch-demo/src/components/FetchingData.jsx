@@ -11,7 +11,7 @@ const FetchingData = () => {
           {posts.length ? (
             <ul>
               {posts.map((post) => (
-                <li key={post.id}>{post.title}</li>
+                <li key={post.id}>{post.title} : {post.body}</li>
               ))}
             </ul>
           ) : ( <Loading /> )}

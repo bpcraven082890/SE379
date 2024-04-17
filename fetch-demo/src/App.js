@@ -27,7 +27,7 @@ function App() {
         Posting Data Demo
       </button>
       <hr />
-      {showFetchData ? <FetchingData /> : <Loading />}
+      {showFetchData ? <FetchingData /> : <PostingData />}
       {showPostData ? <PostingData /> : <Loading />}
     </div>
   );
